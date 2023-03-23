@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+    body{
+    font-family: 'Montserrat', sans-serif;
+    }
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&display=swap');
+    a{
+    text-decoration: none;
+    }
+    *{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+    }
+    .center {
+    
+    padding-left: calc(50% - 700px);
+    padding-right: calc(50% - 700px);
+    
+    }
+    .top{
+    height:1024px;
+    background-image: url(img/cкайпро\ 2077.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    }
+    .span{
+    color: #FFFFFF;
+    }
+    .section
+    {
+    padding-top: 218px;
+    padding-left: 120px;
+    &__title{
+    font-size: 64px;
+    line-height: 78px;
+    color: #FFFFFF;
+    width: 788.78px;
+    line-height: 78px;
+    align-items: center;
+    }
+    &__page{
+    color: darkgray;
+    width: 481px;
+    padding-top: 20px;
+    font-size: 18px;
+    line-height: 32px;
+    }
+    &__button{
+    background: #9C0332;
+    border-radius: 30px;
+    width: 234.06px;
+    height: 48.6px;
+    margin-top: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    &-link{
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+    }
+    }
+    
+    }
+    .pictures{
+    height: 556px;
+    background-image: url(img/скайпро\ 2078.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    &__wrapper{
+    display: flex;
+    gap: 32px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 128px;
+    padding-bottom: 128px;
+    }
+    &__text{
+    font-size: 24px;
+    line-height: 32px;
+    color: #FFFFFF;
+    padding: 32px;
+    }
+    &__red{
+    height: 300px;
+    width: 379px;
+    border-radius: 16px;
+    background-image: url(img/Rectangle\ 6.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+    
+    }
+    &__yellow{
+    height: 300px;
+    width: 379px;
+    border-radius: 16px;
+    background-image: url(img/Rectangle\ 7.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+    }
+    &__green{
+    height: 300px;
+    width: 379px;
+    border-radius: 16px;
+    background-image: url(img/Rectangle\ 8.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+    }
+    }
+    
