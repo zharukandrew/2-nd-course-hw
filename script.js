@@ -1,6 +1,7 @@
 //let  a = 10;
 //alert( a );
-alert (20);
+//let a =20;
+//alert (a)
 let year = 2007;
 alert (year);
 let  founderName= 'Брендан';
