@@ -58,14 +58,13 @@
     font-weight: 700;
     line-height: 78px;
     display: flex;
-    width: 786px;
+    max-width: 786px;
     padding-left: 120px;
     
     }
     &__page{
     color: darkgray;
     max-width: 481px;
-    height: 64px;
     font-weight: 300;
     font-size: 18px;
     line-height: 32px;
@@ -105,18 +104,26 @@
     
     }
     .pictures{
-    height: 556px;
     background-image: url(img/скайпро\ 2078.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 32px;
+   /**/
     &__wrapper{
     display: flex;
-    height: 300px;
-     gap: 32px;
-
-    }
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 32px;
+    padding-bottom: 128px;
+    max-width: 1440px;
+    
+}
     &__text{
     font-size: 24px;
     line-height: 32px;
@@ -124,8 +131,8 @@
     padding: 32px;
     }
     &__red{
-   
-     width: 379px;
+    height: 300px;
+    width: 379px;
     border-radius: 16px;
     background-image: url(img/Rectangle\ 6.jpg);
     background-repeat: no-repeat;
@@ -139,6 +146,7 @@
         transform: rotateY(180deg);
     }
     &__yellow{
+    height: 300px;
     width: 379px;
     border-radius: 16px;
     background-image: url(img/Rectangle\ 7.jpg);
@@ -152,6 +160,7 @@
         transform: rotateY(180deg);
     }
     &__green{
+    height: 300px;
     width: 379px;
     border-radius: 16px;
     background-image: url(img/Rectangle\ 8.jpg);

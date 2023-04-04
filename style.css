@@ -58,13 +58,12 @@ a {
   font-weight: 700;
   line-height: 78px;
   display: flex;
-  width: 786px;
+  max-width: 786px;
   padding-left: 120px;
 }
 .section__page {
   color: darkgray;
   max-width: 481px;
-  height: 64px;
   font-weight: 300;
   font-size: 18px;
   line-height: 32px;
@@ -102,16 +101,25 @@ a {
 }
 
 .pictures {
-  height: 556px;
   background-image: url(img/скайпро\ 2078.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 32px;
+  /**/
 }
 .pictures__wrapper {
   display: flex;
-  height: 300px;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
   gap: 32px;
+  padding-bottom: 128px;
+  max-width: 1440px;
 }
 .pictures__text {
   font-size: 24px;
@@ -120,6 +128,7 @@ a {
   padding: 32px;
 }
 .pictures__red {
+  height: 300px;
   width: 379px;
   border-radius: 16px;
   background-image: url(img/Rectangle\ 6.jpg);
@@ -133,6 +142,7 @@ a {
   transform: rotateY(180deg);
 }
 .pictures__yellow {
+  height: 300px;
   width: 379px;
   border-radius: 16px;
   background-image: url(img/Rectangle\ 7.jpg);
@@ -146,6 +156,7 @@ a {
   transform: rotateY(180deg);
 }
 .pictures__green {
+  height: 300px;
   width: 379px;
   border-radius: 16px;
   background-image: url(img/Rectangle\ 8.jpg);
@@ -160,7 +171,7 @@ a {
 }
 
 @media (max-width: 767px) {
-  .section .center {
+  .center {
     padding-left: 16px;
     padding-right: 16px;
   }
@@ -168,35 +179,47 @@ a {
     display: flex;
     align-items: center;
     height: 735px;
-    padding-top: 217px;
-    flex-direction: column;
   }
   .section__title {
+    font-weight: 700;
     font-size: 32px;
     line-height: 39px;
-    height: 66px;
     text-align: center;
+    padding-top: 238px;
     padding-left: 0%;
   }
   .section__page {
-    width: 343px;
     font-size: 14px;
     line-height: 22px;
     padding-left: 0%;
     padding-top: 33px;
     text-align: center;
+    margin-left: 0%;
+  }
+  .section__button {
+    margin-left: 0%;
   }
   .pictures__wrapper {
     display: flex;
     flex-direction: column;
   }
+  .pictures {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+    padding-top: 128px;
+  }
   .pictures__red {
     width: 342px;
+    height: 300px;
   }
   .pictures__yellow {
-    width: 343px !important;
+    width: 343px;
+    height: 300px;
   }
   .pictures__green {
-    width: 343px !important;
+    width: 343px;
+    height: 300px;
   }
 }/*# sourceMappingURL=style.css.map */

@@ -23,16 +23,17 @@
             padding-top: 238px;
             padding-left: 0%;
         }
-        &__page{
-            width: 343px;
+    &__page{
             font-size: 14px;
             line-height: 22px;
            padding-left: 0%;
-           padding-top: 33px;
           text-align: center;
-            
+          margin-left: 0%;
         }
-        
+    &__button{
+            margin-left: 0%;
+            
+        } 
     }
     .pictures__wrapper {
         display: flex;
