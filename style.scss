@@ -58,9 +58,7 @@
             flex-direction: column;
         
     }
-    &__item{
-        
-    }
+    
     &__page{
     color: darkgray;
     width: 481px;
@@ -113,6 +111,7 @@
     &__wrapper{
     display: flex;
     gap: 32px;
+    flex-direction: column;
    
     }
     &__text{
