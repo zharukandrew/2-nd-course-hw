@@ -35,6 +35,15 @@ a {
 
 .span {
   color: #FFFFFF;
+  line-height: 1;
+  transition: all 0.5s ease;
+}
+
+.span:hover {
+  color: #ffa000; /* Меняем цвет текста */
+  -webkit-text-shadow: 2px 2px 2px #000;
+  -moz-text-shadow: 2px 2px 2px #000;
+  text-shadow: 2px 2px 2px #000;
 }
 
 .section {
@@ -65,11 +74,25 @@ a {
   display: flex;
   align-items: center;
   justify-content: center;
+  transition: all 0.5s;
 }
 .section__button-link {
   font-size: 18px;
   line-height: 22px;
   color: #FFFFFF;
+  transition: all 0.3s;
+}
+.section__button-link:hover {
+  letter-spacing: 2px;
+  color: yellow;
+}
+.section__button__button:hover::before {
+  opacity: 1;
+  transform: scale(1, 1);
+}
+.section__button__button:hover::after {
+  opacity: 0;
+  transform: scale(0.1, 1);
 }
 
 .pictures {
@@ -104,6 +127,9 @@ a {
   display: flex;
   align-items: flex-end;
 }
+.pictures__red:hover {
+  transform: rotateY(180deg);
+}
 .pictures__yellow {
   height: 300px;
   width: 379px;
@@ -115,6 +141,9 @@ a {
   display: flex;
   align-items: flex-end;
 }
+.pictures__yellow:hover {
+  transform: rotateY(180deg);
+}
 .pictures__green {
   height: 300px;
   width: 379px;
@@ -125,4 +154,14 @@ a {
   background-size: cover;
   display: flex;
   align-items: flex-end;
+}
+.pictures__green:hover {
+  transform: rotateY(180deg);
+}
+
+@media (max-width: 767px) {
+  .section__title {
+    width: 343px;
+    font-size: 32px;
+  }
 }/*# sourceMappingURL=style.css.map */

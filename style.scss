@@ -30,7 +30,16 @@
     }
     .span{
     color: #FFFFFF;
+    line-height: 1;
+  -webkit-transition: all 0.5s ease;
+          transition: all 0.5s ease;
     }
+    .span:hover{
+        color: #ffa000; /* Меняем цвет текста */
+        -webkit-text-shadow: 2px 2px 2px #000;
+  -moz-text-shadow: 2px 2px 2px #000;
+      text-shadow: 2px 2px 2px #000;
+      }
     .section
     {
     padding-top: 218px;
@@ -59,10 +68,24 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    transition: all 0.5s;
     &-link{
     font-size: 18px;
     line-height: 22px;
     color: #FFFFFF;
+    transition: all 0.3s;
+    }
+    &-link:hover{
+        letter-spacing: 2px;
+        color:yellow;
+    }
+    &__button:hover::before{
+        opacity: 1;	
+        transform: scale(1, 1);	
+    }
+    &__button:hover::after {
+        opacity: 0;	
+        transform: scale(0.1, 1);
     }
     }
     
@@ -99,6 +122,9 @@
     align-items: flex-end;
     
     }
+    &__red:hover{
+        transform: rotateY(180deg);
+    }
     &__yellow{
     height: 300px;
     width: 379px;
@@ -109,6 +135,9 @@
     background-size: cover;
     display: flex;
     align-items: flex-end;
+    }
+    &__yellow:hover{
+        transform: rotateY(180deg);
     }
     &__green{
     height: 300px;
@@ -121,5 +150,8 @@
     display: flex;
     align-items: flex-end;
     }
+    &__green:hover{
+        transform: rotateY(180deg);
     }
-    
+    }
+    @import"mobile"; 
