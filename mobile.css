@@ -15,7 +15,6 @@
   }
   .pictures__wrapper {
     display: flex;
-    flex-direction: column !important;
   }
   .pictures__red {
     width: 343px;
