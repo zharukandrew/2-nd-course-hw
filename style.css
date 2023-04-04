@@ -21,16 +21,8 @@ a {
 }
 
 .center {
-  padding-left: calc(50% - 700px);
-  padding-right: calc(50% - 700px);
-}
-
-.top {
-  height: 1024px;
-  background-image: url(img/cкайпро\ 2077.jpg);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
+  padding-left: calc(50% - 500px);
+  padding-right: calc(50% - 500px);
 }
 
 .span {
@@ -47,16 +39,25 @@ a {
 }
 
 .section {
-  padding-top: 218px;
-  padding-left: 120px;
+  height: 1024px;
+  background-image: url(img/cкайпро\ 2077.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 .section__title {
   font-size: 64px;
-  line-height: 78px;
   color: #FFFFFF;
-  width: 788.78px;
   line-height: 78px;
-  align-items: center;
+  display: flex;
+  width: 788.78px;
+}
+.section__block {
+  display: flex;
+  flex-direction: column;
 }
 .section__page {
   color: darkgray;
@@ -101,6 +102,10 @@ a {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+}
+.pictures .center-pictures {
+  padding-left: calc(50% - 250px);
+  padding-right: calc(50% - 250px);
 }
 .pictures__wrapper {
   display: flex;
@@ -160,8 +165,20 @@ a {
 }
 
 @media (max-width: 767px) {
+  .section {
+    height: 735px;
+  }
+  .section .center {
+    padding-left: calc(50% - 300px);
+    padding-right: calc(50% - 300px);
+  }
   .section__title {
-    width: 343px;
     font-size: 32px;
+    line-height: 39px;
+  }
+  .section__page {
+    width: 343px;
+    font-size: 14px;
+    line-height: 22px;
   }
 }/*# sourceMappingURL=style.css.map */

@@ -17,17 +17,11 @@
     }
     .center {
     
-    padding-left: calc(50% - 700px);
-    padding-right: calc(50% - 700px);
+    padding-left: calc(50% - 500px);
+    padding-right: calc(50% - 500px);
     
     }
-    .top{
-    height:1024px;
-    background-image: url(img/cкайпро\ 2077.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    }
+    
     .span{
     color: #FFFFFF;
     line-height: 1;
@@ -40,17 +34,32 @@
   -moz-text-shadow: 2px 2px 2px #000;
       text-shadow: 2px 2px 2px #000;
       }
-    .section
-    {
-    padding-top: 218px;
-    padding-left: 120px;
+    .section{
+        height:1024px;
+    background-image: url(img/cкайпро\ 2077.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+        display: flex;
+       flex-direction: column;
+       justify-content: center;
+      
     &__title{
     font-size: 64px;
-    line-height: 78px;
     color: #FFFFFF;
-    width: 788.78px;
     line-height: 78px;
-    align-items: center;
+    display: flex;
+    width: 788.78px;
+    
+    }
+    &__block{
+        
+            display: flex;
+            flex-direction: column;
+        
+    }
+    &__item{
+        
     }
     &__page{
     color: darkgray;
@@ -58,6 +67,7 @@
     padding-top: 20px;
     font-size: 18px;
     line-height: 32px;
+    
     }
     &__button{
     background: #9C0332;
@@ -96,6 +106,10 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    .center-pictures{
+        padding-left: calc(50% - 250px);
+         padding-right: calc(50% - 250px);
+    }
     &__wrapper{
     display: flex;
     gap: 32px;
