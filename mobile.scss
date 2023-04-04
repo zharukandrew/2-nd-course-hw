@@ -22,7 +22,22 @@
         
     }
         
-       
+    .pictures{
+        &__wrapper{
+            display: flex;
+            flex-direction: column!important;
+            flex-wrap: wrap;
+        }
+        &__red{
+            width: 343px;
+        }
+        &__yellow{
+            width: 343px;
+        }
+        &__green{
+            width: 343px; 
+        }
+    }   
 
         
 }

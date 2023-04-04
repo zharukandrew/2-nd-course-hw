@@ -13,4 +13,18 @@
     font-size: 14px;
     line-height: 22px;
   }
+  .pictures__wrapper {
+    display: flex;
+    flex-direction: column !important;
+    flex-wrap: wrap;
+  }
+  .pictures__red {
+    width: 343px;
+  }
+  .pictures__yellow {
+    width: 343px;
+  }
+  .pictures__green {
+    width: 343px;
+  }
 }/*# sourceMappingURL=mobile.css.map */
