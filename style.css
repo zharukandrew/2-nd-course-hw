@@ -21,13 +21,12 @@ a {
 }
 
 .center {
-  padding-left: calc(50% - 500px);
-  padding-right: calc(50% - 500px);
+  padding-left: calc(50% - 720px);
+  padding-right: calc(50% - 720px);
 }
 
 .span {
   color: #FFFFFF;
-  line-height: 1;
   transition: all 0.5s ease;
 }
 
@@ -43,34 +42,45 @@ a {
   background-image: url(img/cкайпро\ 2077.jpg);
   background-repeat: no-repeat;
   background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
 }
 .section__wrapper {
   padding-top: 217px;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
 }
 .section__title {
   font-size: 64px;
   color: #FFFFFF;
+  font-weight: 700;
   line-height: 78px;
   display: flex;
-  width: 789px;
+  width: 786px;
+  padding-left: 120px;
 }
 .section__page {
   color: darkgray;
-  width: 481px;
-  padding-top: 32px;
+  max-width: 481px;
+  height: 64px;
+  font-weight: 300;
   font-size: 18px;
   line-height: 32px;
+  display: inline;
+  margin-left: 120px;
 }
 .section__button {
   background: #9C0332;
   border-radius: 30px;
   width: 234.06px;
   height: 48.6px;
-  margin-top: 44px;
   display: flex;
   align-items: center;
   justify-content: center;
   transition: all 0.5s;
+  margin-left: 120px;
 }
 .section__button-link {
   font-size: 18px;
@@ -158,6 +168,8 @@ a {
     display: flex;
     align-items: center;
     height: 735px;
+    padding-top: 217px;
+    flex-direction: column;
   }
   .section__title {
     font-size: 32px;
