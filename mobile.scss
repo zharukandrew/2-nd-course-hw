@@ -3,23 +3,33 @@
  {
     .center {
     
-        padding-left: calc(50% - 300px);
-        padding-right: calc(50% - 300px);
+        padding-left: 16px;
+        padding-right: 16px;
         
         }
+    &__wrapper{
+        display: flex;
+        align-items: center;
+        height: 735px;
+       padding-top: 217px;
+       flex-direction: column;
+    }
      &__title{
-            padding-top: 217px;
+            
             font-size: 32px ;
             line-height: 39px ;
             height: 66px;
-            width: 343px;
+            text-align: center;
+            padding-left:0%;
             
         }
         &__page{
-          
             width: 343px;
             font-size: 14px;
             line-height: 22px;
+           padding-left: 0%;
+           padding-top: 33px;
+          text-align: center;
             
         }
         
