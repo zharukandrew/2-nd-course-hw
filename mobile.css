@@ -16,7 +16,6 @@
   .pictures__wrapper {
     display: flex;
     flex-direction: column !important;
-    flex-wrap: wrap;
   }
   .pictures__red {
     width: 343px;

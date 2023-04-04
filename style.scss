@@ -109,8 +109,7 @@
     display: flex;
     height: 300px;
      gap: 32px;
-    padding-left: 30px;
-    padding-right: 30px;
+
     }
     &__text{
     font-size: 24px;
@@ -134,7 +133,7 @@
         transform: rotateY(180deg);
     }
     &__yellow{
-        width: 379px;
+    width: 379px;
     border-radius: 16px;
     background-image: url(img/Rectangle\ 7.jpg);
     background-repeat: no-repeat;

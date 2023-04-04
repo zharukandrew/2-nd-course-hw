@@ -107,8 +107,6 @@ a {
   display: flex;
   height: 300px;
   gap: 32px;
-  padding-left: 30px;
-  padding-right: 30px;
 }
 .pictures__text {
   font-size: 24px;
@@ -174,6 +172,7 @@ a {
   .pictures__wrapper {
     display: flex;
     flex-direction: column !important;
+    flex-wrap: wrap;
   }
   .pictures__red {
     width: 343px;
