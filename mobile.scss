@@ -8,12 +8,15 @@
         
         }
      &__title{
+            padding-top: 217px;
             font-size: 32px ;
             line-height: 39px ;
             height: 66px;
+            width: 343px;
             
         }
         &__page{
+          
             width: 343px;
             font-size: 14px;
             line-height: 22px;
@@ -21,15 +24,13 @@
         }
         
     }
-        
+    .pictures__wrapper {
+        display: flex;
+        flex-direction: column;
+    }   
     .pictures{
-        &__wrapper{
-            display: flex;
-          
-            
-        }
         &__red{
-            width: 343px!important;
+            width: 342px;
         }
         &__yellow{
             width: 343px!important;

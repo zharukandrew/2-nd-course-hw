@@ -39,10 +39,11 @@
     background-image: url(img/cкайпро\ 2077.jpg);
     background-repeat: no-repeat;
     background-position: center;
-    background-size: cover;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
+   &__wrapper{
+    padding-top: 217px;
+   }
+       
+        
       
     &__title{
     font-size: 64px;
@@ -52,17 +53,10 @@
     width: 789px;
     
     }
-    &__block{
-        
-            display: flex;
-            flex-direction: column;
-        
-    }
-    
     &__page{
     color: darkgray;
     width: 481px;
-    padding-top: 20px;
+    padding-top: 32px;
     font-size: 18px;
     line-height: 32px;
     

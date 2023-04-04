@@ -4,9 +4,11 @@
     padding-right: calc(50% - 300px);
   }
   .section__title {
+    padding-top: 217px;
     font-size: 32px;
     line-height: 39px;
     height: 66px;
+    width: 343px;
   }
   .section__page {
     width: 343px;
@@ -15,14 +17,15 @@
   }
   .pictures__wrapper {
     display: flex;
+    flex-direction: column;
   }
   .pictures__red {
-    width: 343px;
+    width: 342px;
   }
   .pictures__yellow {
-    width: 343px;
+    width: 343px !important;
   }
   .pictures__green {
-    width: 343px;
+    width: 343px !important;
   }
 }/*# sourceMappingURL=mobile.css.map */
