@@ -1,5 +1,5 @@
 @media (max-width: 767px) {
-  .section .center {
+  .center {
     padding-left: 16px;
     padding-right: 16px;
   }
@@ -7,14 +7,13 @@
     display: flex;
     align-items: center;
     height: 735px;
-    padding-top: 217px;
-    flex-direction: column;
   }
   .section__title {
+    font-weight: 700;
     font-size: 32px;
     line-height: 39px;
-    height: 66px;
     text-align: center;
+    padding-top: 238px;
     padding-left: 0%;
   }
   .section__page {
@@ -29,13 +28,23 @@
     display: flex;
     flex-direction: column;
   }
+  .pictures {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+    padding-top: 128px;
+  }
   .pictures__red {
     width: 342px;
+    height: 300px;
   }
   .pictures__yellow {
-    width: 343px !important;
+    width: 343px;
+    height: 300px;
   }
   .pictures__green {
-    width: 343px !important;
+    width: 343px;
+    height: 300px;
   }
 }/*# sourceMappingURL=mobile.css.map */
