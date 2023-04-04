@@ -1,7 +1,6 @@
 @media(max-width:767px){
     .section
  {
-    height:735px;
     .center {
     
         padding-left: calc(50% - 300px);
@@ -11,8 +10,8 @@
      &__title{
             font-size: 32px ;
             line-height: 39px ;
-            width: 323px!important;
             height: 66px;
+            
         }
         &__page{
             width: 343px;
