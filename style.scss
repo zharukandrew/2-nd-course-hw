@@ -17,70 +17,113 @@
     }
     .center {
     
-    padding-left: calc(50% - 700px);
-    padding-right: calc(50% - 700px);
+    padding-left: calc(50% - 720px);
+    padding-right: calc(50% - 720px);
     
     }
-    .top{
+    
+    .span{
+    color: #FFFFFF;
+    
+  -webkit-transition: all 0.5s ease;
+          transition: all 0.5s ease;
+    }
+    .span:hover{
+        color: #ffa000; /* Меняем цвет текста */
+        -webkit-text-shadow: 2px 2px 2px #000;
+  -moz-text-shadow: 2px 2px 2px #000;
+      text-shadow: 2px 2px 2px #000;
+     
+      }
+    .section{
     height:1024px;
     background-image: url(img/cкайпро\ 2077.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    }
-    .span{
-    color: #FFFFFF;
-    }
-    .section
-    {
-    padding-top: 218px;
-    padding-left: 120px;
+    display: flex;
+    flex-direction: column;
+   &__wrapper{
+    padding-top: 217px;
+    display: flex;
+    flex-direction: column;
+    gap:32px ;
+   }
+       
+        
+      
     &__title{
     font-size: 64px;
-    line-height: 78px;
     color: #FFFFFF;
-    width: 788.78px;
+    font-weight: 700;
     line-height: 78px;
-    align-items: center;
+    display: flex;
+    max-width: 786px;
+    padding-left: 120px;
+    
     }
     &__page{
     color: darkgray;
-    width: 481px;
-    padding-top: 20px;
+    max-width: 481px;
+    font-weight: 300;
     font-size: 18px;
     line-height: 32px;
-    }
+    display: inline;
+    margin-left: 120px;
+   
+}
     &__button{
     background: #9C0332;
     border-radius: 30px;
     width: 234.06px;
     height: 48.6px;
-    margin-top: 44px;
     display: flex;
     align-items: center;
     justify-content: center;
+    transition: all 0.5s;
+    margin-left: 120px;
     &-link{
     font-size: 18px;
     line-height: 22px;
     color: #FFFFFF;
+    transition: all 0.3s;
+    }
+    &-link:hover{
+        letter-spacing: 2px;
+        color:yellow;
+    }
+    &__button:hover::before{
+        opacity: 1;	
+        transform: scale(1, 1);	
+    }
+    &__button:hover::after {
+        opacity: 0;	
+        transform: scale(0.1, 1);
     }
     }
     
     }
     .pictures{
-    height: 556px;
     background-image: url(img/скайпро\ 2078.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 32px;
+   /**/
     &__wrapper{
     display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
     gap: 32px;
-    padding-left: 100px;
-    padding-right: 100px;
-    padding-top: 128px;
     padding-bottom: 128px;
-    }
+    max-width: 1440px;
+    
+}
     &__text{
     font-size: 24px;
     line-height: 32px;
@@ -89,7 +132,7 @@
     }
     &__red{
     height: 300px;
-    width: 379px;
+    width: 350px;
     border-radius: 16px;
     background-image: url(img/Rectangle\ 6.jpg);
     background-repeat: no-repeat;
@@ -99,9 +142,12 @@
     align-items: flex-end;
     
     }
+    &__red:hover{
+        transform: rotateY(180deg);
+    }
     &__yellow{
     height: 300px;
-    width: 379px;
+    width: 350px;
     border-radius: 16px;
     background-image: url(img/Rectangle\ 7.jpg);
     background-repeat: no-repeat;
@@ -110,9 +156,12 @@
     display: flex;
     align-items: flex-end;
     }
+    &__yellow:hover{
+        transform: rotateY(180deg);
+    }
     &__green{
     height: 300px;
-    width: 379px;
+    width: 350px;
     border-radius: 16px;
     background-image: url(img/Rectangle\ 8.jpg);
     background-repeat: no-repeat;
@@ -121,5 +170,8 @@
     display: flex;
     align-items: flex-end;
     }
+    &__green:hover{
+        transform: rotateY(180deg);
     }
-    
+    }
+    @import"mobile"; 

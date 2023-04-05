@@ -21,71 +21,105 @@ a {
 }
 
 .center {
-  padding-left: calc(50% - 700px);
-  padding-right: calc(50% - 700px);
+  padding-left: calc(50% - 720px);
+  padding-right: calc(50% - 720px);
 }
 
-.top {
+.span {
+  color: #FFFFFF;
+  transition: all 0.5s ease;
+}
+
+.span:hover {
+  color: #ffa000; /* Меняем цвет текста */
+  -webkit-text-shadow: 2px 2px 2px #000;
+  -moz-text-shadow: 2px 2px 2px #000;
+  text-shadow: 2px 2px 2px #000;
+}
+
+.section {
   height: 1024px;
   background-image: url(img/cкайпро\ 2077.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  display: flex;
+  flex-direction: column;
 }
-
-.span {
-  color: #FFFFFF;
-}
-
-.section {
-  padding-top: 218px;
-  padding-left: 120px;
+.section__wrapper {
+  padding-top: 217px;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
 }
 .section__title {
   font-size: 64px;
-  line-height: 78px;
   color: #FFFFFF;
-  width: 788.78px;
+  font-weight: 700;
   line-height: 78px;
-  align-items: center;
+  display: flex;
+  max-width: 786px;
+  padding-left: 120px;
 }
 .section__page {
   color: darkgray;
-  width: 481px;
-  padding-top: 20px;
+  max-width: 481px;
+  font-weight: 300;
   font-size: 18px;
   line-height: 32px;
+  display: inline;
+  margin-left: 120px;
 }
 .section__button {
   background: #9C0332;
   border-radius: 30px;
   width: 234.06px;
   height: 48.6px;
-  margin-top: 44px;
   display: flex;
   align-items: center;
   justify-content: center;
+  transition: all 0.5s;
+  margin-left: 120px;
 }
 .section__button-link {
   font-size: 18px;
   line-height: 22px;
   color: #FFFFFF;
+  transition: all 0.3s;
+}
+.section__button-link:hover {
+  letter-spacing: 2px;
+  color: yellow;
+}
+.section__button__button:hover::before {
+  opacity: 1;
+  transform: scale(1, 1);
+}
+.section__button__button:hover::after {
+  opacity: 0;
+  transform: scale(0.1, 1);
 }
 
 .pictures {
-  height: 556px;
   background-image: url(img/скайпро\ 2078.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 32px;
+  /**/
 }
 .pictures__wrapper {
   display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
   gap: 32px;
-  padding-left: 100px;
-  padding-right: 100px;
-  padding-top: 128px;
   padding-bottom: 128px;
+  max-width: 1440px;
 }
 .pictures__text {
   font-size: 24px;
@@ -95,7 +129,7 @@ a {
 }
 .pictures__red {
   height: 300px;
-  width: 379px;
+  width: 350px;
   border-radius: 16px;
   background-image: url(img/Rectangle\ 6.jpg);
   background-repeat: no-repeat;
@@ -104,9 +138,12 @@ a {
   display: flex;
   align-items: flex-end;
 }
+.pictures__red:hover {
+  transform: rotateY(180deg);
+}
 .pictures__yellow {
   height: 300px;
-  width: 379px;
+  width: 350px;
   border-radius: 16px;
   background-image: url(img/Rectangle\ 7.jpg);
   background-repeat: no-repeat;
@@ -115,9 +152,12 @@ a {
   display: flex;
   align-items: flex-end;
 }
+.pictures__yellow:hover {
+  transform: rotateY(180deg);
+}
 .pictures__green {
   height: 300px;
-  width: 379px;
+  width: 350px;
   border-radius: 16px;
   background-image: url(img/Rectangle\ 8.jpg);
   background-repeat: no-repeat;
@@ -125,4 +165,60 @@ a {
   background-size: cover;
   display: flex;
   align-items: flex-end;
+}
+.pictures__green:hover {
+  transform: rotateY(180deg);
+}
+
+@media (max-width: 767px) {
+  .center {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+  .section__wrapper {
+    display: flex;
+    align-items: center;
+    height: 735px;
+  }
+  .section__title {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 39px;
+    text-align: center;
+    padding-top: 238px;
+    padding-left: 0%;
+  }
+  .section__page {
+    font-size: 14px;
+    line-height: 22px;
+    padding-left: 0%;
+    text-align: center;
+    margin-left: 0%;
+  }
+  .section__button {
+    margin-left: 0%;
+  }
+  .pictures__wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+  .pictures {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+    padding-top: 128px;
+  }
+  .pictures__red {
+    width: 300px;
+    height: 300px;
+  }
+  .pictures__yellow {
+    width: 300px;
+    height: 300px;
+  }
+  .pictures__green {
+    width: 300px;
+    height: 300px;
+  }
 }/*# sourceMappingURL=style.css.map */

@@ -1,10 +1,9 @@
-let password = 'пароль';
-let passwordWord = prompt('Введите пароль');
-if(password){
-    alert('Пароль введен верно');
-}else{
-    alert('Пароль введен неправильноо');
-}
+// let password = 'пароль';
+
+// let entry = String(prompt('Введите пароль'));
+
+// let respond = entry !== password ? 'пароль введён неверно' : 'пароль введён верно';
+// alert(respond);
 
 //let c = 12;
 //c>=0 && c<10 ? console.log('Верно') : console.log('Неверно');
