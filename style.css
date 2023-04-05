@@ -21,12 +21,13 @@ a {
 }
 
 .center {
-  padding-left: calc(50% - 720px);
-  padding-right: calc(50% - 720px);
+  padding-left: calc(50% - 500px);
+  padding-right: calc(50% - 500px);
 }
 
 .span {
   color: #FFFFFF;
+  line-height: 1;
   transition: all 0.5s ease;
 }
 
@@ -42,44 +43,34 @@ a {
   background-image: url(img/cкайпро\ 2077.jpg);
   background-repeat: no-repeat;
   background-position: center;
-  background-size: cover;
-  display: flex;
-  flex-direction: column;
 }
 .section__wrapper {
   padding-top: 217px;
-  display: flex;
-  flex-direction: column;
-  gap: 32px;
 }
 .section__title {
   font-size: 64px;
   color: #FFFFFF;
-  font-weight: 700;
   line-height: 78px;
   display: flex;
-  max-width: 786px;
-  padding-left: 120px;
+  width: 789px;
 }
 .section__page {
   color: darkgray;
-  max-width: 481px;
-  font-weight: 300;
+  width: 481px;
+  padding-top: 32px;
   font-size: 18px;
   line-height: 32px;
-  display: inline;
-  margin-left: 120px;
 }
 .section__button {
   background: #9C0332;
   border-radius: 30px;
   width: 234.06px;
   height: 48.6px;
+  margin-top: 44px;
   display: flex;
   align-items: center;
   justify-content: center;
   transition: all 0.5s;
-  margin-left: 120px;
 }
 .section__button-link {
   font-size: 18px;
@@ -101,25 +92,16 @@ a {
 }
 
 .pictures {
+  height: 556px;
   background-image: url(img/скайпро\ 2078.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
-  gap: 32px;
-  /**/
 }
 .pictures__wrapper {
   display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
+  height: 300px;
   gap: 32px;
-  padding-bottom: 128px;
-  max-width: 1440px;
 }
 .pictures__text {
   font-size: 24px;
@@ -128,7 +110,6 @@ a {
   padding: 32px;
 }
 .pictures__red {
-  height: 300px;
   width: 379px;
   border-radius: 16px;
   background-image: url(img/Rectangle\ 6.jpg);
@@ -142,7 +123,6 @@ a {
   transform: rotateY(180deg);
 }
 .pictures__yellow {
-  height: 300px;
   width: 379px;
   border-radius: 16px;
   background-image: url(img/Rectangle\ 7.jpg);
@@ -156,7 +136,6 @@ a {
   transform: rotateY(180deg);
 }
 .pictures__green {
-  height: 300px;
   width: 379px;
   border-radius: 16px;
   background-image: url(img/Rectangle\ 8.jpg);
