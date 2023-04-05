@@ -16,6 +16,7 @@
        
     }
      &__title{
+           
             font-weight:700;
             font-size: 32px ;
             line-height: 39px ;
@@ -46,15 +47,15 @@
         gap:32px;
         padding-top: 128px;
         &__red{
-            width: 250px;
+            width: 300px;
             height: 300px;
         }
         &__yellow{
-            width: 250px;
+            width: 300px;
             height: 300px;
         }
         &__green{
-            width: 250px;
+            width: 300px;
             height: 300px;
         }
     }   
