@@ -29,11 +29,8 @@ for (let n = 1000, num = 0; n > 50; num++) {
 }
 */
     /*задание 6
-    let friday = 0;
-
- for (let month = 0; friday < 5; friday++) {
-    month += 7;
-    console.log(`Сегодня пятница, ${month}-ое число. Необходимо подготовить отчёт`);
- }
+    for (let fridayDate = 1; fridayDate <= 31; fridayDate+=7) {
+    console.log(`Сегодня пятница, ${fridayDate}-е число. Необходимо подготовить отчет.`);
+}
     
 */
