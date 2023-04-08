@@ -22,20 +22,18 @@ for (let i = 1; i <= 5; i++) {
        console.log(`${key} – зарплата ${obj[key]}`);
     }*/
 /*Задание 5
-    let num = 0;
-    for (let n = 1000; n > 50; n++) 
-    {
-        n = (n / 2) ;
-            console.log( n );
-        }
+for (let n = 1000, num = 0; n > 50; num++) {
+    n /= 2;
+        console.log(n);
+        console.log(`Количество итераций ${num}`)
+}
 */
-
-    /*Задание 6
+    /*задание 6
     let friday = 0;
 
- for (let month = 0; friday < 4; friday++) {
+ for (let month = 0; friday < 5; friday++) {
     month += 7;
     console.log(`Сегодня пятница, ${month}-ое число. Необходимо подготовить отчёт`);
  }
-    */
-
+    
+*/
