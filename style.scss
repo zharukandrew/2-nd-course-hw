@@ -174,4 +174,59 @@
         transform: rotateY(180deg);
     }
     }
+    .season{
+       
+        &__title{
+            font-weight: 700;
+            font-size: 48px;
+            line-height: 59px;
+            color: #FFFFFF;
+            
+        }
+        &__page{
+            margin-top: 2rem;
+            color: #fff;
+            font-weight: 300;
+            font-size: 18px;
+            line-height: 32px;
+            display: inline;
+            margin-left: 0px;
+            max-width: 300px;
+        }
+        
+        &__button{
+            background: #9C0332;
+            border-radius: 30px;
+            width: 234.06px;
+            height: 48.6px;
+            color: #FFFFFF;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 22px;
+            margin-top: 44px;
+        }
+        &__button:hover{
+            letter-spacing: 2px;
+            color:yellow;
+        }
+        &__button:hover::before{
+            opacity: 1;	
+            transform: scale(1, 1);	
+        }
+        &__button:hover::after {
+            opacity: 0;	
+            transform: scale(0.1, 1);
+        }
+       
+        background-image: url(img/game.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-wrap: wrap;
+        min-height: 800px;
+    }
     @import"mobile"; 
