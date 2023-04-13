@@ -49,31 +49,4 @@
     width: 300px;
     height: 300px;
   }
-}
-.season__title {
-  font-size: 32px;
-  padding-left: 0%;
-}
-.season__page {
-  font-style: normal;
-  font-weight: 300;
-  font-size: 14px;
-  line-height: 22px;
-  /* or 157% */
-}
-.season__button {
-  background: #9C0332;
-  border-radius: 30px;
-  width: 234.06px;
-  height: 48.6px;
-  color: #FFFFFF;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 22px;
-  margin-top: 32px;
-}
-.season__block-img {
-  width: 300px;
-  height: 200px;
 }/*# sourceMappingURL=mobile.css.map */
