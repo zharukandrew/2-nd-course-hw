@@ -70,7 +70,6 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    align-items: start;
   }
   .season__info-img {
     width: 344px;

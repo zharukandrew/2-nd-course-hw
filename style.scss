@@ -180,10 +180,12 @@ body{
         &__title{
             font-weight: 700;
             font-size: 48px;
-            line-height: 59px;
             color: #FFFFFF;
             font-style: normal;
-            padding-top: 32px;
+            line-height: 59px;
+            display: flex;
+            align-items: center;
+            
            
         }
         &__page{
