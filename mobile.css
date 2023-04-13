@@ -67,6 +67,8 @@
     font-weight: 400;
     font-size: 18px;
     line-height: 22px;
+    display: flex;
+    justify-content: center;
   }
   .season__block-img {
     width: 344px;
