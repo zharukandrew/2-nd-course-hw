@@ -213,6 +213,11 @@ body{
             font-size: 18px;
             line-height: 22px;
             margin-top: 44px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: all 0.5s;
+           padding-left: 0%;
         }
         &__button:hover{
             letter-spacing: 2px;

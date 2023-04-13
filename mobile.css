@@ -61,17 +61,11 @@
     text-align: center;
   }
   .season__button {
-    width: 234.06px;
-    height: 48.6px;
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
-    line-height: 22px;
-    display: flex;
-    justify-content: center;
   }
   .season__block-img {
-    width: 344px;
-    height: 236px;
+    display: none;
   }
 }/*# sourceMappingURL=mobile.css.map */

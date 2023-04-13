@@ -214,6 +214,11 @@ a {
   font-size: 18px;
   line-height: 22px;
   margin-top: 44px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.5s;
+  padding-left: 0%;
 }
 .season__button:hover {
   letter-spacing: 2px;
@@ -291,12 +296,9 @@ a {
     text-align: center;
   }
   .season__button {
-    width: 234.06px;
-    height: 48.6px;
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
-    line-height: 22px;
   }
   .season__block-img {
     width: 344px;
