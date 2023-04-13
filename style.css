@@ -186,6 +186,7 @@ a {
   font-size: 48px;
   line-height: 59px;
   color: #FFFFFF;
+  font-style: normal;
 }
 .season__page {
   margin-top: 2rem;
@@ -193,9 +194,8 @@ a {
   font-weight: 300;
   font-size: 18px;
   line-height: 32px;
-  display: inline;
   margin-left: 0px;
-  max-width: 300px;
+  max-width: 574px;
 }
 .season__button {
   background: #9C0332;
@@ -290,9 +290,6 @@ a {
   font-size: 14px;
   line-height: 22px;
   /* or 157% */
-  display: flex;
-  align-items: center;
-  text-align: center;
 }
 .season__button {
   background: #9C0332;
