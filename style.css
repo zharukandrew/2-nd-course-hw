@@ -199,7 +199,12 @@ a {
   line-height: 32px;
   max-width: 584px;
 }
-.season__block-img {
+.season__block {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+.season__info-img {
   width: 485px;
   height: 333px;
 }
@@ -300,8 +305,9 @@ a {
     font-weight: 400;
     font-size: 18px;
   }
-  .season__block-img {
-    width: 344px;
-    height: 236px;
+  .season__season__block {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
   }
 }/*# sourceMappingURL=style.css.map */
