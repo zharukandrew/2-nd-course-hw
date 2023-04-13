@@ -59,7 +59,30 @@
         }
     } 
       .season{
+        &__title{
+            font-size: 32px;
+            line-height: 39px;
+            text-align: center;
+        }
+       &__page{
+        font-style: normal;
+        font-size: 14px;
+        line-height: 22px;
+        text-align: center;
+       }
+       &__button{
+        width: 234.06px;
+        height: 48.6px;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 22px;
         
+       }
+       &__block-img {
+        width: 344px;
+        height: 236px;
+       }
       }
 }
 

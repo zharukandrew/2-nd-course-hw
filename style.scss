@@ -184,6 +184,7 @@ body{
             color: #FFFFFF;
             font-style: normal;
             padding-top: 32px;
+           
         }
         &__page{
             font-style: normal;
@@ -194,9 +195,11 @@ body{
             font-size: 18px;
             line-height: 32px;
             max-width: 584px;
-            align-items: center;
-            flex: none;
 
+        }
+        &__block-img{
+            width:485px; 
+            height:333px;
         }
         
         &__button{

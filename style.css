@@ -198,8 +198,10 @@ a {
   font-size: 18px;
   line-height: 32px;
   max-width: 584px;
-  align-items: center;
-  flex: none;
+}
+.season__block-img {
+  width: 485px;
+  height: 333px;
 }
 .season__button {
   background: #9C0332;
@@ -276,5 +278,28 @@ a {
   .pictures__green {
     width: 300px;
     height: 300px;
+  }
+  .season__title {
+    font-size: 32px;
+    line-height: 39px;
+    text-align: center;
+  }
+  .season__page {
+    font-style: normal;
+    font-size: 14px;
+    line-height: 22px;
+    text-align: center;
+  }
+  .season__button {
+    width: 234.06px;
+    height: 48.6px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+  }
+  .season__block-img {
+    width: 344px;
+    height: 236px;
   }
 }/*# sourceMappingURL=style.css.map */
