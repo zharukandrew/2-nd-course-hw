@@ -83,3 +83,18 @@ const getNum = array => array.filter(item => item < 0);
 
 console.log(getNum([1, -3, 5, 6, -4, -9, -7, 2, -8]));
  */
+/*доп задания 
+Задания 14
+function getRandomInt(min, max) {
+    return Math.floor(Math.random() * (max - min + 1)) + min;
+}
+
+console.log(getRandomInt(0, 10));
+Задания 15
+function getRandomInt(min, max) {
+    return Math.floor(Math.random() * (max - min + 1)) + min;
+}
+
+console.log(getRandomInt(1, 10));
+
+*/
