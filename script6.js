@@ -22,8 +22,15 @@ let str=arr.join(' ');
 console.log(str);
 */
 /*4 задание
-let arr = [[1, 1, 1], [1, 1, 1], [1, 1, 1]];
-console.log(arr);
+ let arr = [];
+
+ for(let i = 0; i < 3; i++){
+     arr[i] = [];
+     for(let k = 1; k < 4; k++){
+         arr[i].push(k - (k-1));
+     }
+ }
+ console.log(arr);
 */
 /*задание 5
 let arr = [1, 1, 1];
@@ -63,13 +70,9 @@ let arr = [3, 5, 6, 3, 9, 7];
  }*/
 /*Задание 11
 
- const num = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+ const arr8 =[[1, 2, 3,],[4, 5, 6]]
 
- const result = num.map(function (item) {
-  return item ** 2;
- })
-
- console.log(result);*/
+console.log(arr8.flat());*/
 /* Задание 12
 
  const getLength = arr => arr.map(str => str.length);
@@ -83,18 +86,3 @@ const getNum = array => array.filter(item => item < 0);
 
 console.log(getNum([1, -3, 5, 6, -4, -9, -7, 2, -8]));
  */
-/*доп задания 
-Задания 14
-function getRandomInt(min, max) {
-    return Math.floor(Math.random() * (max - min + 1)) + min;
-}
-
-console.log(getRandomInt(0, 10));
-Задания 15
-function getRandomInt(min, max) {
-    return Math.floor(Math.random() * (max - min + 1)) + min;
-}
-
-console.log(getRandomInt(1, 10));
-
-*/
