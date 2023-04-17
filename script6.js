@@ -70,10 +70,9 @@ let arr = [3, 5, 6, 3, 9, 7];
  }*/
 /*Задание 11
 const squareNumberArray =[2,5,7,3];
-let result = squareNumberArray.map(item=>(item**2));
-
-console.log(result);
+console.log(squareNumberArray.map(item=>(item**2)));
  */
+
 /* Задание 12
 
  const getLength = arr => arr.map(str => str.length);
