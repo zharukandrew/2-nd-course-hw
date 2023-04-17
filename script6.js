@@ -69,10 +69,11 @@ let arr = [3, 5, 6, 3, 9, 7];
     console.log((arr[i]+arr[i+1]));
  }*/
 /*Задание 11
+const squareNumberArray =[2,5,7,3];
+let result = squareNumberArray.map(item=>(item**2));
 
- const arr8 =[[1, 2, 3,],[4, 5, 6]]
-
-console.log(arr8.flat());*/
+console.log(result);
+ */
 /* Задание 12
 
  const getLength = arr => arr.map(str => str.length);
