@@ -69,8 +69,12 @@ let arr = [3, 5, 6, 3, 9, 7];
     console.log((arr[i]+arr[i+1]));
  }*/
 /*Задание 11
-const squareNumberArray =[2,5,7,3];
-console.log(squareNumberArray.map(item=>(item**2)));
+function squareNumber(array) 
+{ 
+    let result =(array.map(item=>(item**2)));
+    console.log(result);
+}
+squareNumber(array = [2, 5, 7, 3]);
  */
 
 /* Задание 12
