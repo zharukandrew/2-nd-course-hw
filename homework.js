@@ -1,5 +1,5 @@
 // 2.5 Функции,8задание
-/*function seasonsGame() {
+function seasonsGame() {
     let season = Number(prompt("Введите номер любого месяца года"));
                                        
     if (season > 0 && season <= 2 || season === 12) {
@@ -13,7 +13,7 @@
     } else {
       console.log('неверный месяц');
     }
-    }*/
+    }
     // 2.7 Встроенные обьекты
     let array = ['Яблоко', 'Груша', 'Дыня', 'Виноград', 'Персик', 'Апельсин', 'Мандарин'];
 

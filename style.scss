@@ -239,7 +239,7 @@ body{
             transform: scale(0.1, 1);
         }
        
-        background-image: url(img/game.jpg);
+        background-image: url(img/words.jpg);
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
@@ -251,8 +251,8 @@ body{
        
        
     }
-    .words
-    {
+    
+    .word {
         background-image: url(img/words.jpg);
         background-repeat: no-repeat;
         background-position: center;
@@ -262,10 +262,6 @@ body{
         align-items: center;
         flex-wrap: wrap;
         min-height: 800px;
-        &__info-img{
-            width:481px; 
-            height:322px;
-        }
         &__title{
             font-weight: 700;
             font-size: 48px;
@@ -288,15 +284,16 @@ body{
            width: 584px;
 
         }
+        &__info-img{
+            width:481px; 
+            height:321px;
+        }
         &__block{
             display: flex;
             flex-direction: column;
             align-items: start;
         }
-        &__info-img{
-            width:485px; 
-            height:333px;
-        }
+        
         
         &__button{
             background: #9C0332;
@@ -327,5 +324,7 @@ body{
             opacity: 0;	
             transform: scale(0.1, 1);
         }
+       
+        
     }
     @import"mobile"; 

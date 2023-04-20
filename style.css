@@ -171,7 +171,7 @@ a {
 }
 
 .season {
-  background-image: url(img/game.jpg);
+  background-image: url(img/words.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -239,7 +239,7 @@ a {
   transform: scale(0.1, 1);
 }
 
-.words {
+.word {
   background-image: url(img/words.jpg);
   background-repeat: no-repeat;
   background-position: center;
@@ -250,11 +250,7 @@ a {
   flex-wrap: wrap;
   min-height: 800px;
 }
-.words__info-img {
-  width: 481px;
-  height: 322px;
-}
-.words__title {
+.word__title {
   font-weight: 700;
   font-size: 48px;
   color: #FFFFFF;
@@ -263,7 +259,7 @@ a {
   display: flex;
   align-items: center;
 }
-.words__page {
+.word__page {
   font-style: normal;
   font-family: "Montserrat";
   margin-top: 32px;
@@ -273,16 +269,16 @@ a {
   line-height: 32px;
   width: 584px;
 }
-.words__block {
+.word__info-img {
+  width: 481px;
+  height: 321px;
+}
+.word__block {
   display: flex;
   flex-direction: column;
   align-items: start;
 }
-.words__info-img {
-  width: 485px;
-  height: 333px;
-}
-.words__button {
+.word__button {
   background: #9C0332;
   border-radius: 30px;
   width: 234.06px;
@@ -299,15 +295,15 @@ a {
   transition: all 0.5s;
   padding-left: 0%;
 }
-.words__button:hover {
+.word__button:hover {
   letter-spacing: 2px;
   color: yellow;
 }
-.words__button:hover::before {
+.word__button:hover::before {
   opacity: 1;
   transform: scale(1, 1);
 }
-.words__button:hover::after {
+.word__button:hover::after {
   opacity: 0;
   transform: scale(0.1, 1);
 }
@@ -388,5 +384,31 @@ a {
   .season__info-img {
     width: 344px;
     height: 236px;
+  }
+  .words__info-img {
+    width: 344px;
+    height: 231px;
+  }
+  .words__title {
+    font-size: 32px;
+    line-height: 39px;
+    text-align: center;
+  }
+  .words__page {
+    font-style: normal;
+    font-size: 14px;
+    line-height: 22px;
+    text-align: center;
+    width: 343px;
+  }
+  .words__button {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+  }
+  .words__block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 }/*# sourceMappingURL=style.css.map */
