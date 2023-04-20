@@ -75,28 +75,28 @@
     width: 344px;
     height: 236px;
   }
-  .words__info-img {
+  .word__info-img {
     width: 344px;
     height: 231px;
   }
-  .words__title {
+  .word__title {
     font-size: 32px;
     line-height: 39px;
     text-align: center;
   }
-  .words__page {
+  .word__page {
     font-style: normal;
     font-size: 14px;
     line-height: 22px;
     text-align: center;
     width: 343px;
   }
-  .words__button {
+  .word__button {
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
   }
-  .words__block {
+  .word__block {
     display: flex;
     flex-direction: column;
     align-items: center;
