@@ -269,6 +269,9 @@ a {
   line-height: 32px;
   width: 584px;
 }
+.word__mobile {
+  display: none;
+}
 .word__info-img {
   width: 481px;
   height: 321px;
@@ -384,6 +387,12 @@ a {
   .season__info-img {
     width: 344px;
     height: 236px;
+  }
+  .word__info {
+    display: none;
+  }
+  .word__mobile {
+    display: block;
   }
   .word__info-img {
     width: 344px;

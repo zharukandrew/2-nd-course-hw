@@ -75,6 +75,12 @@
     width: 344px;
     height: 236px;
   }
+  .word__info {
+    display: none;
+  }
+  .word__mobile {
+    display: block;
+  }
   .word__info-img {
     width: 344px;
     height: 231px;

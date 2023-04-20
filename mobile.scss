@@ -90,7 +90,12 @@
     }
 }
 .word{
-    
+    &__info{
+        display:none;
+    }
+    &__mobile{
+        display: block;
+    }
     &__info-img{
         width: 344px;
         height: 231px;
