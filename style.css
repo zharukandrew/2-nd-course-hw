@@ -239,6 +239,79 @@ a {
   transform: scale(0.1, 1);
 }
 
+.words {
+  background-image: url(img/words.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  min-height: 800px;
+}
+.words__info-img {
+  width: 481px;
+  height: 322px;
+}
+.words__title {
+  font-weight: 700;
+  font-size: 48px;
+  color: #FFFFFF;
+  font-style: normal;
+  line-height: 59px;
+  display: flex;
+  align-items: center;
+}
+.words__page {
+  font-style: normal;
+  font-family: "Montserrat";
+  margin-top: 32px;
+  color: #fff;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 32px;
+  width: 584px;
+}
+.words__block {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+.words__info-img {
+  width: 485px;
+  height: 333px;
+}
+.words__button {
+  background: #9C0332;
+  border-radius: 30px;
+  width: 234.06px;
+  height: 48.6px;
+  color: #FFFFFF;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  margin-top: 44px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.5s;
+  padding-left: 0%;
+}
+.words__button:hover {
+  letter-spacing: 2px;
+  color: yellow;
+}
+.words__button:hover::before {
+  opacity: 1;
+  transform: scale(1, 1);
+}
+.words__button:hover::after {
+  opacity: 0;
+  transform: scale(0.1, 1);
+}
+
 @media (max-width: 767px) {
   .center {
     padding-left: 16px;
