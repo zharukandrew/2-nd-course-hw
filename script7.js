@@ -6,6 +6,7 @@ function searchStart (arr, str){
     arr.forEach((item) => {
         if (item.toLowerCase().startsWith(str.toLowerCase())) {
             console.log(item);
+            return item ;
         }
     });
 }
