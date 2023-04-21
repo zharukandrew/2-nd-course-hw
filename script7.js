@@ -3,16 +3,21 @@ let str = 'js';
 console.log(str.toUpperCase());*/
 /*задание 2
 function searchStart (arr, str){
-    arr.forEach((item) => {
-        if (item.toLowerCase().startsWith(str.toLowerCase())) {
-            console.log(item);
-            return item ;
-        }
-    });
-}
-
-searchStart(['Кошка', 'Кит', 'Комар', 'Носорог'], 'ко'); 
-searchStart(['яблоко', 'груша', 'гриб', 'огурец'], 'гру');
+    const newArr = []
+           // forEach по сути и есть цикл, он итерирует все элементы массива
+            arr.forEach((item) => {
+                if (item.toLowerCase().startsWith(str.toLowerCase())) {
+                  
+                    console.log(item);
+                    newArr(item) ;
+                    
+                }
+            });
+         return newArr
+    }
+    
+    console.log( searchStart(['Кошка', 'Кит', 'Комар', 'Носорог'], 'ко') ); 
+    console.log( searchStart(['яблоко', 'груша', 'гриб', 'огурец'], 'гру') );
 */
 
 /*3 задание
