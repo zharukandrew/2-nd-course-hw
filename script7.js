@@ -31,15 +31,18 @@ function getRandomInt(min, max) {
   
   console.log(getRandomInt(1, 10));*/
 /*6 задание
- function getNum(a) {
-    console.log(Array.from(Array(Math.floor(a / 2)), () => Math.round(Math.random() * a)));
+function getNum(a) {
+    return(Array.from(Array(Math.floor(a / 2)), () => Math.round(Math.random() * a)));
  }
- getNum(9);*/
+ console.log(getNum(9));
+*/
+ 
 /*7 задание
  function getRandomArbitary(min, max) {
-	console.log(Math.round(Math.random() * (max - min)) + min) ;
+	return(Math.round(Math.random() * (max - min)) + min) ;
 }
-getRandomArbitary(5,31);*/
+console.log(getRandomArbitary(5,31));*/
+
 
 /* 8 задание
 let date = new Date();
