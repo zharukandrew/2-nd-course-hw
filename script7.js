@@ -3,7 +3,7 @@ let str = 'js';
 console.log(str.toUpperCase());*/
 /*задание 2
 function searchStart (arr, str){
-    const newArr = []
+    let newArr = []
            // forEach по сути и есть цикл, он итерирует все элементы массива
             arr.forEach((item) => {
                 if (item.toLowerCase().startsWith(str.toLowerCase())) {
