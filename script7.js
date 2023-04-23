@@ -12,10 +12,10 @@ function searchStart(arr, str) {
   return result;
 }
 
-// Примеры вызова функции
-console.log(searchStart(['Кошка', 'Кит', 'Комар', 'Носорог'], 'ко')); // ['Кошка', 'Комар']
-console.log(searchStart(['яблоко', 'груша', 'гриб', 'огурец'], 'гру')); // ['груша']
-console.log(searchStart(['Дом', 'Банк', 'Больница', 'Театр'], 'Кино')); // []
+
+console.log(searchStart(['Кошка', 'Кит', 'Комар', 'Носорог'], 'ко')); 
+console.log(searchStart(['яблоко', 'груша', 'гриб', 'огурец'], 'гру')); 
+console.log(searchStart(['Дом', 'Банк', 'Больница', 'Театр'], 'Кино')); 
 */
 
 /*3 задание
