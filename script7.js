@@ -2,22 +2,20 @@
 let str = 'js';
 console.log(str.toUpperCase());*/
 /*задание 2
-function searchStart (arr, str){
-    let newArr = []
-           // forEach по сути и есть цикл, он итерирует все элементы массива
-            arr.forEach((item) => {
-                if (item.toLowerCase().startsWith(str.toLowerCase())) {
-                  
-                    console.log(item);
-                    newArr(item) ;
-                    
-                }
-            });
-         return newArr
+function searchStart(arr, str) {
+  const result = [];
+  for (let i = 0; i < arr.length; i++) {
+    if (arr[i].toLowerCase().startsWith(str.toLowerCase())) {
+      result.push(arr[i]);
     }
-    
-    console.log( searchStart(['Кошка', 'Кит', 'Комар', 'Носорог'], 'ко') ); 
-    console.log( searchStart(['яблоко', 'груша', 'гриб', 'огурец'], 'гру') );
+  }
+  return result;
+}
+
+// Примеры вызова функции
+console.log(searchStart(['Кошка', 'Кит', 'Комар', 'Носорог'], 'ко')); // ['Кошка', 'Комар']
+console.log(searchStart(['яблоко', 'груша', 'гриб', 'огурец'], 'гру')); // ['груша']
+console.log(searchStart(['Дом', 'Банк', 'Больница', 'Театр'], 'Кино')); // []
 */
 
 /*3 задание
@@ -26,6 +24,7 @@ console.log(Math.floor(str));
 console.log(Math.ceil(str));
 console.log(Math.round(str));
 */
+
 /*4 задание
 console.log(Math.max(52, 53, 49, 77, 21, 32));
 console.log(Math.min(52, 53, 49, 77, 21, 32.));
