@@ -171,7 +171,7 @@ a {
 }
 
 .season {
-  background-image: url(img/game.jpg);
+  background-image: url(img/words.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -235,6 +235,78 @@ a {
   transform: scale(1, 1);
 }
 .season__button:hover::after {
+  opacity: 0;
+  transform: scale(0.1, 1);
+}
+
+.word {
+  background-image: url(img/words.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  min-height: 600px;
+}
+.word__title {
+  font-weight: 700;
+  font-size: 48px;
+  color: #FFFFFF;
+  font-style: normal;
+  line-height: 59px;
+  display: flex;
+  align-items: center;
+}
+.word__page {
+  font-style: normal;
+  font-family: "Montserrat";
+  margin-top: 32px;
+  color: #fff;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 32px;
+  width: 584px;
+}
+.word__mobile {
+  display: none;
+}
+.word__info-img {
+  width: 481px;
+  height: 321px;
+}
+.word__block {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+.word__button {
+  background: #9C0332;
+  border-radius: 30px;
+  width: 234.06px;
+  height: 48.6px;
+  color: #FFFFFF;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  margin-top: 44px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.5s;
+  padding-left: 0%;
+}
+.word__button:hover {
+  letter-spacing: 2px;
+  color: yellow;
+}
+.word__button:hover::before {
+  opacity: 1;
+  transform: scale(1, 1);
+}
+.word__button:hover::after {
   opacity: 0;
   transform: scale(0.1, 1);
 }
@@ -315,5 +387,37 @@ a {
   .season__info-img {
     width: 344px;
     height: 236px;
+  }
+  .word__info {
+    display: none;
+  }
+  .word__mobile {
+    display: block;
+  }
+  .word__info-img {
+    width: 344px;
+    height: 231px;
+  }
+  .word__title {
+    font-size: 32px;
+    line-height: 39px;
+    text-align: center;
+  }
+  .word__page {
+    font-style: normal;
+    font-size: 14px;
+    line-height: 22px;
+    text-align: center;
+    width: 343px;
+  }
+  .word__button {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+  }
+  .word__block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 }/*# sourceMappingURL=style.css.map */
