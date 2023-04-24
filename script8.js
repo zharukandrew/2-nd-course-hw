@@ -12,25 +12,30 @@ function  sum(arr) {
 
 getResult ([3, 4, 1, 9], mult); 
 getResult ([3, 4, 1, 9], sum); */
+/* 2 задание 
+const users = [
+    { name: 'Jon', age: 22 },
+    { name: 'Richard', age: 18 },
+    { name: 'Anton', age: 32 },
+    { name: 'Lida', age: 23 },
+    { name: 'Bob', age: 44 }
+];
 
-/*2 задание
-function sortByAge(arr) {
-    arr.sort((a, b) => a.age > b.age ? 1 : -1);
-  }
+function getSortedArrayObj() {
+    return users.sort(function (a, b) {
+        return a.age - b.age;
+    });
+};
+
+console.log(getSortedArrayObj(users));
+
+ */
+
   
-  let Jon = { name: 'Jon', age: 22 };
-  let Richard = { name: 'Richard', age: 18 };
-  let Anton = { name: 'Anton', age: 32 };
-  let Lida = { name: 'Lida', age: 23 };
-  let Bob = { name: 'Bob', age: 44 };
-  let arr = [ Bob, Anton, Lida, Jon, Richard ];
-  
-  sortByAge(arr);
-  console.log(arr[0].name); 
-  console.log(arr[1].name); 
-  console.log(arr[2].name); 
-  console.log(arr[3].name); 
-  console.log(arr[4].name); */
+ 
+
+
+
 /* 3 задание
 const arr1 = [1, '4', 9, 'two'];
 const arr2 = [1, '4', false, 9, 'two'];
